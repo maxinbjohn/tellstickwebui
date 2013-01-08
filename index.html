@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>TellStick Controller</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Control the devices in my Room using TellStick">
+    <meta name="description" content="Control the Devices in my Room using TellStick">
     <meta name="author" content="Maxin B. John">
 
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -31,26 +31,26 @@
 
 <div class="row-fluid">
  <div class="span4">
-  <form name="input" action="http://localhost/cgi-bin/mainlight.sh" method="get">
-    <img src="img/pitr_Lamp_icon.svg" width="111" height="30" class="img-rounded">    
+  <form name="input" action="http://localhost/cgi-bin/mainlight_off.sh" method="get">
+    <a href="http://localhost/cgi-bin/mainlight.sh"> <img src="img/pitr_Lamp_icon.svg" width="111" height="30" class="img-rounded"></a>    
     </br>
-    <button type="submit" class="span4 btn btn-danger">Main Light</button>
+    <button type="submit" class="span4 btn btn-danger">Main Light Off</button>
   </form> 
  </div>
 
  <div class="span4">
-  <form name="input" action="http://localhost/cgi-bin/tv.sh" method="get">
-    <img src="img/tv.jpg" width="111" height="30" class="img-rounded">    
+  <form name="input" action="http://localhost/cgi-bin/tv_off.sh" method="get">
+  <a href="http://localhost/cgi-bin/tv.sh">  <img src="img/tv.jpg" width="111" height="30" class="img-rounded"> </a>    
     </br>
-    <button type="submit" class="span4 btn btn-danger">TV</button>
+    <button type="submit" class="span4 btn btn-danger">TV Off</button>
   </form> 
  </div>
 
  <div class="span4">
-  <form name="input" action="http://localhost/cgi-bin/readinglight.sh" method="get">
-    <img src="img/pitr_Lamp_icon.svg" width="111" height="30" class="img-rounded">    
+  <form name="input" action="http://localhost/cgi-bin/readinglight_off.sh" method="get">
+  <a href="http://localhost/cgi-bin/readinglight.sh">  <img src="img/pitr_Lamp_icon.svg" width="111" height="30" class="img-rounded"> </a>    
     </br>
-    <button type="submit" class="span4 btn btn-danger">Reading Light</button>
+    <button type="submit" class="span4 btn btn-danger">Study Light Off</button>
   </form> 
  </div>
 </div>
