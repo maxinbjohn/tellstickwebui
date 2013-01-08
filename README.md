@@ -1,4 +1,4 @@
 tellstickwebui
 ==============
 
-TellStick Web UI
+Simple TellStick Web UI using Bootstrap.
